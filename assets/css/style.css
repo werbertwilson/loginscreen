@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   background-color: rgb(248, 247, 244);
+}
+
+.content-center{
+    width: 300px;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.content-center input:focus{
+    border-bottom-color:  rgb(0, 140, 255);
+}
+
+
+.content-center .text-center {
+    text-align: center;
+}
+
+.content-center img {
+    width: 100%;
+}
+
+.content-center form {
+    margin: 20px;
+}
+
+.content-center input, .content-center button {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.content-center input {
+    border-bottom-color: #CCC;
+    border-bottom-style: solid ;
+    border-bottom-width: 1px;
+    margin-bottom: 10px;
+}
+
+.content-center button{
+    background-color: rgb(0, 140, 255);
+    color: #FFF;
+}
+
+.content-center button:hover{
+    background-color: rgb(15, 95, 161);
+    cursor: pointer;
+
+}
+
+.content-center button:active{
+    background-color: rgb(8, 69, 119);
+    
+}
+
+header a {
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+
+}
+
+header a:visited{
+    color: black;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header h1{
+    font-size: 14pt;
+    text-align: center;
+    margin: 20px auto;
+}
+
+footer {
+    font-size: 11pt;
+    text-align: center;
+    margin: 10px;
+}
